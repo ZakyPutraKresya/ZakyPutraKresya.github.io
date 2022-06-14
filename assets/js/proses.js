@@ -174,23 +174,23 @@ async function jawab() {
         allowOutsideClick: false,
         showCancelButton: false,
     });
-    if (jawaban && jawaban.length < 16) {
+    if (jawaban) {
         window.jawaban = jawaban;
         pesanwhatsapp = jawaban;
         menuju();
     } else {
-        await swals.fire('Ups!', 'Kolom tidak boleh kosong atau lebih dari 15 karakter, ya!');
+        await swals.fire('Ups!', 'Tidak boleh kosong ya!');
     }
 }
 
 async function pertama() {
-    wallpaper.src = "https://drive.google.com/u/0/uc?id=1nhpDqLv1vRE-_x-rvuzJbdaY56s5EVym&export=download";
-    fotonimasi.src = "https://i.postimg.cc/KjgMkqbH/d186d40026c605b289fa1b062d112df4.gif";
+    wallpaper.src = "https://www.linkpicture.com/q/cantik.jpg";
+    fotonimasi.src = "https://c.tenor.com/M00Zqk6Dx7EAAAAi/peachcat-goma.gif";
     audio = new Audio('https://feeldreams.github.io/anotherme.mp3');
 
-    akhirkata = "Semoga di hari spesialmu ini, kamu menjadi pribadi yang lebih baik yaaa       ";
-    akhirkata2 = "Happy Birthday!!!";
-    palingakhir.innerHTML = "Jangan lupa traktirannya! ";
+    akhirkata = "Semoga di hari spesialmu ini, kamu menjadi pribadi yang lebih baik yaaa, Aku akan selalu menemani dan terus disampingmu. Sehat selalu cantik dan selalu dimudahkan dalam urusannya dan semoga apa yang kamu inginkan segera tercapai yaa!       ";
+    akhirkata2 = "Happy Birthday Cantikkk!!!";
+    palingakhir.innerHTML = "I Love You Bby 💕";
 
     await swalst.fire('Tunggu ya Cantik :)');
     lanjut();
