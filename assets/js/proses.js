@@ -143,7 +143,7 @@ function stopmq() {
 stopmq();
 async function menuju() {
     await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');
-    window.location = "https://api.whatsapp.com/send?6282111021268=&text=" + pesanwhatsapp;
+    window.location = "https://api.whatsapp.com/send/?phone=082111021268=&text=" + pesanwhatsapp;
 }
 var aa = 0,
     akhirkata;
