@@ -184,7 +184,7 @@ async function jawab() {
 }
 
 async function pertama() {
-    wallpaper.src = "https://feeldreams.github.io/wpjalanan.jpg";
+    wallpaper.src = "https://drive.google.com/u/0/uc?id=1nhpDqLv1vRE-_x-rvuzJbdaY56s5EVym&export=download";
     fotonimasi.src = "https://i.postimg.cc/KjgMkqbH/d186d40026c605b289fa1b062d112df4.gif";
     audio = new Audio('https://feeldreams.github.io/anotherme.mp3');
 
