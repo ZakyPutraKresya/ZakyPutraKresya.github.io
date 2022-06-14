@@ -143,7 +143,7 @@ function stopmq() {
 stopmq();
 async function menuju() {
     await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');
-    window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;
+    window.location = "https://api.whatsapp.com/send?6282111021268=&text=" + pesanwhatsapp;
 }
 var aa = 0,
     akhirkata;
@@ -186,7 +186,7 @@ async function jawab() {
 async function pertama() {
     wallpaper.src = "https://www.linkpicture.com/q/cantik.jpg";
     fotonimasi.src = "https://c.tenor.com/M00Zqk6Dx7EAAAAi/peachcat-goma.gif";
-    audio = new Audio('https://feeldreams.github.io/anotherme.mp3');
+    audio = new Audio('https://zakyputrakresya.github.io/strong.mp3');
 
     akhirkata = "Semoga di hari spesialmu ini, kamu menjadi pribadi yang lebih baik yaaa, Aku akan selalu menemani dan terus disampingmu. Sehat selalu cantik dan selalu dimudahkan dalam urusannya dan semoga apa yang kamu inginkan segera tercapai yaa!       ";
     akhirkata2 = "Happy Birthday Cantikkk!!!";
